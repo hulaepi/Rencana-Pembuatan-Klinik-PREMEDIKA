@@ -1,0 +1,18 @@
+
+/* You can add global custom CSS here if Tailwind is not enough */
+/* For example, specific font loading if not handled by Google Fonts link */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Styling for multi-select placeholder or custom components if needed */
+/* Example: .multi-select-container { ... } */
+
+/* Ensure Tailwind base, components, and utilities are implicitly included by Reflex */
+
+/* Fix for select multiple height in Tailwind, if needed. */
+select[multiple] {
+    min-height: 8rem; /* Adjust as needed */
+    background-image: none; /* Remove default arrow for multi-select */
+    padding-right: 0.75rem; /* Adjust padding */
+}
